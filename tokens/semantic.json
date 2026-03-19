@@ -1,0 +1,26 @@
+{
+  "action": {
+    "primary":          { "value": "{color.blue.500}",   "type": "color" },
+    "primary-hover":    { "value": "{color.blue.600}",   "type": "color" },
+    "primary-disabled": { "value": "{color.blue.200}",   "type": "color" }
+  },
+  "text": {
+    "inverse":  { "value": "{color.neutral.0}",   "type": "color" },
+    "disabled": { "value": "{color.neutral.300}", "type": "color" }
+  },
+  "semantic": {
+    "space": {
+      "padding-v": { "value": "{space.12}", "type": "dimension" },
+      "padding-h": { "value": "{space.16}", "type": "dimension" }
+    },
+    "radius": {
+      "md": { "value": "{radius.8}", "type": "dimension" }
+    },
+    "typography": {
+      "label": {
+        "size":   { "value": "{typography.font-size.14}",    "type": "dimension" },
+        "weight": { "value": "{typography.font-weight.600}", "type": "number" }
+      }
+    }
+  }
+}

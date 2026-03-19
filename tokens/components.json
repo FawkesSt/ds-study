@@ -1,0 +1,20 @@
+{
+  "button": {
+    "background": {
+      "default":  { "value": "{action.primary}",          "type": "color" },
+      "hover":    { "value": "{action.primary-hover}",    "type": "color" },
+      "disabled": { "value": "{action.primary-disabled}", "type": "color" }
+    },
+    "label": {
+      "color":          { "value": "{text.inverse}",                   "type": "color" },
+      "color-disabled": { "value": "{text.disabled}",                  "type": "color" },
+      "size":           { "value": "{semantic.typography.label.size}",  "type": "dimension" },
+      "weight":         { "value": "{semantic.typography.label.weight}","type": "number" }
+    },
+    "padding": {
+      "vertical":   { "value": "{semantic.space.padding-v}", "type": "dimension" },
+      "horizontal": { "value": "{semantic.space.padding-h}", "type": "dimension" }
+    },
+    "radius": { "value": "{semantic.radius.md}", "type": "dimension" }
+  }
+}

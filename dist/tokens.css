@@ -1,0 +1,36 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --ds-color-blue-200: #bfdbfe;
+  --ds-color-blue-500: #2563eb;
+  --ds-color-blue-600: #1d4ed8;
+  --ds-color-neutral-0: #ffffff;
+  --ds-color-neutral-300: #d1d5db;
+  --ds-space-12: 12rem;
+  --ds-space-16: 16rem;
+  --ds-radius-8: 8rem;
+  --ds-typography-font-size-14: 14rem;
+  --ds-typography-font-weight-600: 600;
+  --ds-action-primary: #2563eb;
+  --ds-action-primary-hover: #1d4ed8;
+  --ds-action-primary-disabled: #bfdbfe;
+  --ds-text-inverse: #ffffff;
+  --ds-text-disabled: #d1d5db;
+  --ds-semantic-space-padding-v: 12rem;
+  --ds-semantic-space-padding-h: 16rem;
+  --ds-semantic-radius-md: 8rem;
+  --ds-semantic-typography-label-size: 14rem;
+  --ds-semantic-typography-label-weight: 600;
+  --ds-button-background-default: #2563eb;
+  --ds-button-background-hover: #1d4ed8;
+  --ds-button-background-disabled: #bfdbfe;
+  --ds-button-label-color: #ffffff;
+  --ds-button-label-color-disabled: #d1d5db;
+  --ds-button-label-size: 14rem;
+  --ds-button-label-weight: 600;
+  --ds-button-padding-vertical: 12rem;
+  --ds-button-padding-horizontal: 16rem;
+  --ds-button-radius: 8rem;
+}
