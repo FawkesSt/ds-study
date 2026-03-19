@@ -1,0 +1,30 @@
+/* src/components/Button/Button.css */
+.ds-button {
+  display:         inline-flex;
+  align-items:     center;
+  justify-content: center;
+  border:          none;
+  cursor:          pointer;
+  border-radius:   var(--ds-button-radius);
+  padding:         var(--ds-button-padding-vertical)
+                   var(--ds-button-padding-horizontal);
+  font-size:       var(--ds-button-label-size);
+  font-weight:     var(--ds-button-label-weight);
+  transition:      background 150ms ease;
+}
+
+.ds-button--primary {
+  background: var(--ds-button-background-default);
+  color:      var(--ds-button-label-color);
+}
+
+.ds-button--primary:hover:not(:disabled) {
+  background: var(--ds-button-background-hover);
+}
+
+.ds-button--disabled,
+.ds-button:disabled {
+  background: var(--ds-button-background-disabled);
+  color:      var(--ds-button-label-color-disabled);
+  cursor:     not-allowed;
+}
