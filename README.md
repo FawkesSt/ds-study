@@ -375,8 +375,6 @@ await sd.buildAllPlatforms()
 |---|---|---|
 | `registerTransform is not a function` | Wrong SD version API | Use `hooks.transforms` (v5 syntax) |
 | `name/cti/kebab not found` | v4 transform name | Use `name/kebab` |
-| `20 reference errors` | Collection wrappers not stripped | Add preprocessor |
-| `10 reference errors` | Object.assign overwriting shared keys | Use deepMerge |
 | Values output as `rem` | Unitless numbers | Expand filter to include Tokens Studio types |
 | `Cannot use import statement` | Wrong module type | Set `"type": "module"` in package.json |
 | `build:tokens` still uses CLI | Script not updated | Change to `"node sd.config.js"` |
